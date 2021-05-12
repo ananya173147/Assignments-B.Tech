@@ -1,1 +1,0 @@
-The average waiting time for all the threads is 76 microseconds.
