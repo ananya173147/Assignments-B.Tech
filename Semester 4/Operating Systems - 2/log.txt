@@ -1,0 +1,45 @@
+1st customer access request at 23:59
+1st customer given access at 23:59
+1st customer exited at 23:59
+2nd customer access request at 23:59
+2nd customer given access at 23:59
+5th customer access request at 23:59
+5th customer given access at 23:59
+3rd customer access request at 23:59
+3rd customer given access at 23:59
+4th customer access request at 23:59
+4th customer given access at 23:59
+6th customer access request at 23:59
+6th customer given access at 23:59
+7th customer access request at 23:59
+7th customer given access at 23:59
+7th customer exited at 23:59
+5th customer exited at 23:59
+2nd customer exited at 23:59
+8th customer access request at 23:59
+8th customer given access at 23:59
+9th customer access request at 23:59
+9th customer given access at 23:59
+10th customer access request at 23:59
+10th customer given access at 23:59
+9th customer exited at 23:59
+10th customer exited at 23:59
+6th customer exited at 23:59
+3rd customer exited at 23:59
+8th customer exited at 23:59
+11th customer access request at 23:59
+11th customer given access at 23:59
+12th customer access request at 23:59
+12th customer given access at 23:59
+13th customer access request at 23:59
+13th customer given access at 23:59
+14th customer access request at 23:59
+14th customer given access at 23:59
+15th customer access request at 23:59
+15th customer given access at 23:59
+13th customer exited at 24:00
+4th customer exited at 24:00
+14th customer exited at 24:00
+11th customer exited at 24:00
+15th customer exited at 24:00
+12th customer exited at 24:00
