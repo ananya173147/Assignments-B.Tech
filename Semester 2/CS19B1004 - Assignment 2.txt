@@ -1,0 +1,40 @@
+Ananya Mantravadi 
+CS19B1004
+Assignment 2 - Queues
+
+
+
+0. Queue* create_Queue()
+Create an empty queue and pointied the First and Last pointers to NULL. Return the pointer to the same queue.
+
+
+a. void enqueue(int value, Queue* Q)
+Create a new node and inserted value. First case is when the queue was originally empty. So on adding the node, point First and Last pointers appropriately. Second case would be adding a node to a non-empty queue, and adjusting pointers at the end of the queue.
+
+
+b. int dequeue(Queue* Q)
+If the queue is empty, then the function will print an error message and return 404. If the queue is non-empty store the first node's data in a temp node and then move first one node ahead to remove the first node. Special case is when there is only one node in the queue. Accordingly, pointers are adjusted.
+
+
+c. int top(Queue* Q)
+If the queue is empty, print an error message and return 404. Else, use first pointer to access the node's data.
+
+
+d. int is_empty(Queue* Q) 
+I check if the First node points to NULL or does not. Return 1 if empty, else 0.
+
+
+e. Queue* clone_queue(Queue* Q)
+If the queue is empty, return NULL. Else, create an empty queue. Create new nodes and copy the data starting from Q->first using curr pointer which traverses over the queue, till curr reaches Q->last->next. 
+
+
+f. Queue* sort_queue(Queue* Q)
+If the queue is empty, return NULL. Create two pointers, one pointed to Q->first and another to Q->first->next. Using nested for-loops, compare and swap the data in ascending order.
+
+
+g. int play_queue(Queue* Q, int k)
+If k is negative, print an error message and return 404. If the queue is empty, return 404. If the queue has only one node, return position 1. Else, clone the queue, make it circular and count the number of nodes. Using a for-loop, assign positions to the nodes in the cloned queue. Then remove every kth node in the cloned queue while (curr!=curr->next) and return the data of the last remaining node.
+
+
+h. Queue* remove_duplicates(Queue* Q) 
+If the queue is empty, return NULL. Create two nodes which traverse over all possible combinations of two nodes in the queue. If any two of them are equal, point a temp node to second one and later point temp at NULL to remove the node. Adjust the pointers appropriately to keep the queue intact.
